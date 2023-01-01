@@ -1,4 +1,5 @@
 const reverseString = function(stringInput) {
+    // split the string to characters → reverse the entire array → join everything back together
     return stringInput.split('').reverse().join('');
 };
 
